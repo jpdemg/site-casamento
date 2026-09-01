@@ -171,7 +171,7 @@ export const rsvp = {
   },
 
   // WhatsApp do casal — usado para dúvidas e para avisar sobre o presente
-  whatsapp: '5511999999999', // TROCAR — só números, com 55 + DDD (o casal ainda vai criar esse número)
+  whatsapp: '5511963691862',
 }
 
 export const recado = {
