@@ -9,6 +9,7 @@ import Honeymoon from './components/Honeymoon'
 import CartDrawer from './components/CartDrawer'
 import Rsvp from './components/Rsvp'
 import Footer from './components/Footer'
+import { Seal } from './components/ui'
 
 const STORAGE_KEY = 'presentes-casamento'
 
@@ -78,7 +79,10 @@ export default function App() {
   return (
     <>
       <Nav count={count} total={total} onOpenCart={() => setCartOpen(true)} />
-      <Hero />
+      <div className="hero-wrap">
+        <Hero />
+        <Seal size={72} className="hero-seal" />
+      </div>
       <Countdown />
       <Story />
       <Venue />

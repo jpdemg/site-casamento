@@ -77,8 +77,8 @@ export const dressCode = {
   pinterest: 'https://br.pinterest.com/', // TROCAR
   // Fotos de referência do dress code (coloque em public/img/ e aponte aqui)
   fotos: [
-    { src: '/img/dresscode-1.jpg', alt: 'Referência de traje feminino' }, // TROCAR
-    { src: '/img/dresscode-2.jpg', alt: 'Referência de traje masculino' }, // TROCAR
+    { src: '/img/dresscode-1.png', alt: 'Referência de traje: tons terrosos e amarelo' },
+    { src: '/img/dresscode-2.png', alt: 'Referência de traje: azul marinho' },
   ],
 }
 

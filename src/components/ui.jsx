@@ -34,10 +34,11 @@ export function Seal({ size = 66, bare = false, className = '', style }) {
  */
 export function Photo({ src, alt = '', label = 'Sua foto aqui', className = '', style }) {
   const [ok, setOk] = useState(Boolean(src))
+  const mostraImg = ok && src
 
   return (
-    <div className={`ph ${className}`} data-label={label} style={style}>
-      {ok && src ? (
+    <div className={`ph ${className}`} data-label={mostraImg ? undefined : label} style={style}>
+      {mostraImg ? (
         <img src={asset(src)} alt={alt} loading="lazy" onError={() => setOk(false)} />
       ) : null}
     </div>

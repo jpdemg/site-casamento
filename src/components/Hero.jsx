@@ -1,5 +1,4 @@
 import { casal, dataFormatada, fotoHero, asset } from '../config'
-import { Seal } from './ui'
 
 export default function Hero() {
   return (
@@ -20,7 +19,6 @@ export default function Hero() {
       </div>
 
       <p className="hero-scroll">Role para descer</p>
-      <Seal size={72} className="hero-seal" />
     </header>
   )
 }
