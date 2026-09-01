@@ -42,7 +42,7 @@ export default function Honeymoon({ cart, add, remove, addFree, onOpenCart }) {
             const qty = cart[c.id]?.qty ?? 0
             return (
               <Reveal key={c.id} delay={Math.min(i, 5) * 60} className={`gift ${qty ? 'is-picked' : ''}`}>
-                <Photo src={c.img} alt={c.nome} label={`Imagem: ${c.img}`} />
+                {c.img && <Photo src={c.img} alt={c.nome} label={`Imagem: ${c.img}`} />}
                 <div className="gift-body">
                   <p className="gift-name">{c.nome}</p>
                   <div className="gift-foot">

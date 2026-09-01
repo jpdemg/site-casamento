@@ -95,12 +95,17 @@ export const luaDeMel = {
   chamada:
     'Você pode escolher a(s) experiência(s) que deseja nos dar como presente de casamento:',
   // Cotas de experiência. Preços ainda são placeholder — confirmar valor real de cada uma.
-  // Coloque as imagens em public/img/ e aponte em `img`.
+  // Coloque as imagens em public/img/ e aponte em `img`. Cotas sem `img` aparecem
+  // como cartão só com nome e preço (usado nas cotas "brincalhonas").
   cotas: [
     { id: 'cafe', nome: 'Café da manhã dos noivos', preco: 150, img: '/img/cota-cafe.jpg' }, // TROCAR valor
     { id: 'jantar', nome: 'Jantar especial', preco: 350, img: '/img/cota-jantar.jpg' }, // TROCAR valor
     { id: 'misterioso', nome: 'Passeio misterioso', preco: 250, img: '/img/cota-misterioso.jpg' }, // TROCAR valor
     { id: 'aereo', nome: 'Ajuda no aéreo', preco: 800, img: '/img/cota-aereo.jpg' }, // TROCAR valor
+    { id: 'gorjeta', nome: 'Cota da gorjeta generosa pro garçom', preco: 37.5 },
+    { id: 'ressaca', nome: 'Cota do café pra cortar a ressaca no dia seguinte', preco: 22.9 },
+    { id: 'buque', nome: 'Cota pra noiva jogar o buquê bem na sua direção', preco: 63.4 },
+    { id: 'salto', nome: 'Cota do curativo pro salto que vai doer no fim da festa', preco: 18.75 },
   ],
   // Dados do PIX para onde o valor cai
   pix: {
