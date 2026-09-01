@@ -139,16 +139,16 @@ export const rsvp = {
   modo: 'nativo',
 
   // ID do formulário: aparece na URL, entre /forms/d/e/  e  /viewform
-  formId: '1FAIpQLSd5ajDOfG9pcY7mTrW-O73Dtk3yG4TQKE_xXUrr0xJRYeV8qw',
+  formId: '1FAIpQLSfM5CDD7tqx04a0y0CdDUvMWkjsIfSoKvM0QNGSjpgX6w34zQ',
 
   // IDs de cada campo (pegue pelo "link pré-preenchido" — ver README)
   campos: {
-    nome: 'entry.610314766',
-    whatsapp: 'entry.2046016890',
-    criancaVai: 'entry.1159616339',
-    criancaNome: 'entry.900800898',
-    criancaIdade: 'entry.1327975480',
-    presenca: 'entry.1273098885',
+    nome: 'entry.2104682253',
+    whatsapp: 'entry.2055639855',
+    criancaVai: 'entry.1511578215',
+    criancaNome: 'entry.1608937358',
+    criancaIdade: 'entry.673627810',
+    presenca: 'entry.698883558',
   },
 
   // Precisam ser EXATAMENTE o texto das opções no Google Forms
@@ -163,9 +163,9 @@ export const rsvp = {
 
   // Usado só no modo 'iframe' e no botão de reserva
   formEmbedUrl:
-    'https://docs.google.com/forms/d/e/1FAIpQLSd5ajDOfG9pcY7mTrW-O73Dtk3yG4TQKE_xXUrr0xJRYeV8qw/viewform?embedded=true',
+    'https://docs.google.com/forms/d/e/1FAIpQLSfM5CDD7tqx04a0y0CdDUvMWkjsIfSoKvM0QNGSjpgX6w34zQ/viewform?embedded=true',
   formLink:
-    'https://docs.google.com/forms/d/e/1FAIpQLSd5ajDOfG9pcY7mTrW-O73Dtk3yG4TQKE_xXUrr0xJRYeV8qw/viewform',
+    'https://docs.google.com/forms/d/e/1FAIpQLSfM5CDD7tqx04a0y0CdDUvMWkjsIfSoKvM0QNGSjpgX6w34zQ/viewform',
 
   // Mensagem que aparece no site depois de enviar
   sucesso: {
