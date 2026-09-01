@@ -20,7 +20,7 @@ export default function DressCode() {
                   key={i}
                   src={f.src}
                   alt={f.alt}
-                  label={`Referência ${i + 1} — public/img/dresscode-${i + 1}.jpg`}
+                  label={`Referência ${i + 1}: public/img/dresscode-${i + 1}.jpg`}
                 />
               ))}
             </div>

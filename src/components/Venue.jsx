@@ -10,7 +10,7 @@ export default function Venue() {
             <Photo
               src={fotoLocal}
               alt={local.nome}
-              label="Foto do local — public/img/local.jpg"
+              label="Foto do local: public/img/local.jpg"
             />
           </Reveal>
 

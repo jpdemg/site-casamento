@@ -34,7 +34,7 @@ export default function CartDrawer({ open, onClose, items, total, remove }) {
 
   const mensagemWhats = () => {
     const linhas = items.map(
-      (i) => `• ${i.nome}${i.qty > 1 ? ` (${i.qty}x)` : ''} — ${formatBRL(i.preco * i.qty)}`
+      (i) => `• ${i.nome}${i.qty > 1 ? ` (${i.qty}x)` : ''}: ${formatBRL(i.preco * i.qty)}`
     )
     return encodeURIComponent(
       `Oi! Acabei de enviar o PIX do presente de casamento de vocês 💛\n\n` +
@@ -135,7 +135,7 @@ export default function CartDrawer({ open, onClose, items, total, remove }) {
             </div>
 
             <p className="copied">
-              Faça o PIX no valor total e nos avise pelo WhatsApp — assim sabemos quem presenteou.
+              Faça o PIX no valor total e nos avise pelo WhatsApp, assim sabemos quem presenteou.
             </p>
           </div>
         )}

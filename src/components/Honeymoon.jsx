@@ -42,7 +42,7 @@ export default function Honeymoon({ cart, add, remove, addFree, onOpenCart }) {
             const qty = cart[c.id]?.qty ?? 0
             return (
               <Reveal key={c.id} delay={Math.min(i, 5) * 60} className={`gift ${qty ? 'is-picked' : ''}`}>
-                <Photo src={c.img} alt={c.nome} label={`Imagem — ${c.img}`} />
+                <Photo src={c.img} alt={c.nome} label={`Imagem: ${c.img}`} />
                 <div className="gift-body">
                   <p className="gift-name">{c.nome}</p>
                   <div className="gift-foot">
@@ -84,7 +84,7 @@ export default function Honeymoon({ cart, add, remove, addFree, onOpenCart }) {
         <Reveal className="free-gift">
           <h4>Ou contribua com o valor que quiser</h4>
           <p>
-            Se preferir não escolher uma experiência específica, qualquer valor é bem-vindo — ele
+            Se preferir não escolher uma experiência específica, qualquer valor é bem-vindo. Ele
             entra direto no caixa da viagem e a gente decide juntos onde ele vira memória.
           </p>
           <div className="free-row">

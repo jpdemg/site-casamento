@@ -10,7 +10,7 @@ export default function Story() {
             <Photo
               src={fotoHistoria}
               alt="Nós dois"
-              label="Foto do casal — public/img/historia.jpg"
+              label="Foto do casal: public/img/historia.jpg"
             />
           </Reveal>
 

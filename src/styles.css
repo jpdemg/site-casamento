@@ -489,10 +489,12 @@ section {
 .hero-seal {
   position: absolute;
   left: 50%;
-  bottom: 96px;
-  transform: translateX(-50%);
+  bottom: 0;
+  transform: translate(-50%, 50%);
   z-index: 5;
-  box-shadow: 0 6px 26px rgba(24, 20, 16, 0.22);
+  background: #fff;
+  border: 1.5px solid var(--gold);
+  box-shadow: 0 8px 30px rgba(24, 20, 16, 0.35);
 }
 
 @media (max-width: 700px) {
@@ -511,9 +513,6 @@ section {
   }
   .hero-scroll {
     display: none;
-  }
-  .hero-seal {
-    bottom: 24px;
   }
 }
 
@@ -602,6 +601,7 @@ section {
 }
 
 .split-fill {
+  grid-template-columns: 1.25fr 1fr;
   align-items: stretch;
 }
 

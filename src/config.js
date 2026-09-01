@@ -4,7 +4,7 @@
 // ============================================================================
 
 export const casal = {
-  noiva: 'Laísa',
+  noiva: 'Laisa',
   noivo: 'Matteo',
   monograma: 'LM', // usado só se a imagem abaixo não carregar
   monogramaImg: '/img/monograma.png', // o selo LM do convite, com fundo transparente
@@ -31,7 +31,7 @@ export const contagem = {
     'Neste site, você vai encontrar todos os detalhes do nosso casamento: data, local, traje, lista de presentes e tudo mais que preparamos com carinho.',
     'Estamos ansiosos para viver esse dia inesquecível ao lado de vocês!',
   ],
-  assinatura: 'Com amor, Laísa e Matteo',
+  assinatura: 'Com amor, Laisa e Matteo',
   rodape: 'até o pôr do sol que receberá o nosso "sim".',
 }
 
@@ -40,12 +40,12 @@ export const historia = {
   versiculo: '',
   referencia: '',
   paragrafos: [
-    'Tudo começou com um olhar… e uma caipirinha. Era 8 de novembro de 2020, em meio à pandemia, quando Laísa resolveu quebrar a quarentena e ir a uma festa — ela jamais imaginaria que aquela decisão mudaria sua vida para sempre.',
-    'Alguns minutos depois, Matteo chegou. Nós ainda não nos conhecíamos, mas, de alguma forma, nossos olhares começaram a se encontrar. Discretamente, tentávamos disfarçar cada troca de olhares, como se ninguém estivesse percebendo — mas nossos amigos, que hoje podemos chamar de cupidos oficiais dessa história, perceberam. E decidiram dar uma ajudinha.',
-    'Matteo estava preparando caipirinhas quando uma amiga perguntou se Laísa poderia ajudá-lo. E foi aí que aconteceu: assim que ela percebeu que era ele, o coração já bateu mais forte. Entre frutas, gelo e uma boa dose de coragem, começamos a conversar.',
-    'E, curiosamente, a caipirinha que Matteo fez naquela noite foi simplesmente a melhor que Laísa já tomou na vida. Talvez fosse a receita… ou talvez fosse o ingrediente especial que aquela noite carregava.',
-    'Depois daquela caipirinha, começamos a conversar — e não paramos mais. O que começou com olhares tímidos em uma festa se transformou em conversas intermináveis, encontros, risadas e cumplicidade — e, em dezembro daquele mesmo ano, no início do nosso namoro.',
-    'Desde então, seguimos escolhendo um ao outro todos os dias. Vivemos momentos incríveis, enfrentamos desafios, realizamos sonhos e construímos, pouco a pouco, a nossa história — uma história que começou de maneira inesperada, num momento tão incerto do mundo, mas que nos trouxe a certeza de que alguns encontros simplesmente acontecem na hora certa.',
+    'Tudo começou com um olhar… e uma caipirinha. Era 8 de novembro de 2020, em meio à pandemia, quando Laisa resolveu quebrar a quarentena e ir a uma festa. Ela jamais imaginaria que aquela decisão mudaria sua vida para sempre.',
+    'Alguns minutos depois, Matteo chegou. Nós ainda não nos conhecíamos, mas, de alguma forma, nossos olhares começaram a se encontrar. Discretamente, tentávamos disfarçar cada troca de olhares, como se ninguém estivesse percebendo. Mas nossos amigos, que hoje podemos chamar de cupidos oficiais dessa história, perceberam. E decidiram dar uma ajudinha.',
+    'Matteo estava preparando caipirinhas quando uma amiga perguntou se Laisa poderia ajudá-lo. E foi aí que aconteceu: assim que ela percebeu que era ele, o coração já bateu mais forte. Entre frutas, gelo e uma boa dose de coragem, começamos a conversar.',
+    'E, curiosamente, a caipirinha que Matteo fez naquela noite foi simplesmente a melhor que Laisa já tomou na vida. Talvez fosse a receita… ou talvez fosse o ingrediente especial que aquela noite carregava.',
+    'Depois daquela caipirinha, começamos a conversar e não paramos mais. O que começou com olhares tímidos em uma festa se transformou em conversas intermináveis, encontros, risadas e cumplicidade, até que, em dezembro daquele mesmo ano, começou o nosso namoro.',
+    'Desde então, seguimos escolhendo um ao outro todos os dias. Vivemos momentos incríveis, enfrentamos desafios, realizamos sonhos e construímos, pouco a pouco, a nossa história: uma história que começou de maneira inesperada, num momento tão incerto do mundo, mas que nos trouxe a certeza de que alguns encontros simplesmente acontecem na hora certa.',
     'Hoje, olhamos para trás e percebemos que aquela noite de 8 de novembro de 2020 foi apenas o primeiro capítulo de tudo o que ainda viveríamos juntos. E agora, depois de tantos capítulos, estamos prontos para escrever o nosso próximo: o nosso para sempre.',
   ],
 }
@@ -53,13 +53,13 @@ export const historia = {
 export const local = {
   titulo: 'A cerimônia',
   texto:
-    'Nosso grande dia acontecerá no Villa Vezzane, em Mairiporã, em meio à natureza e com uma atmosfera charmosa e acolhedora — um espaço com proposta rústico-chique, integrado à natureza, com áreas ao ar livre e cobertas.',
+    'Nosso grande dia acontecerá no Villa Vezzane, em Mairiporã, em meio à natureza e com uma atmosfera charmosa e acolhedora, um espaço com proposta rústico-chique, integrado à natureza, com áreas ao ar livre e cobertas.',
   nome: 'Villa Vezzane',
-  endereco: 'R. Benedito Fontana, 510 — Mairiporã, SP, 07627-200',
+  endereco: 'R. Benedito Fontana, 510, Mairiporã, SP, 07627-200',
   observacao: 'Após a cerimônia, os convidados serão recepcionados no mesmo local.',
   mapa: 'https://share.google/ZHBbRfipdqdJ5BVLU',
   hospedagem:
-    'A Villa Vezzane fica em Mairiporã, na serra da Cantareira, a cerca de 40 minutos de carro da zona norte de São Paulo. Na região há pousadas e hotéis para quem quiser dormir por perto — recomendamos reservar com antecedência.', // CONFERIR distância/tempo
+    'A Villa Vezzane fica em Mairiporã, na serra da Cantareira, a cerca de 40 minutos de carro da zona norte de São Paulo. Na região há pousadas e hotéis para quem quiser dormir por perto. Recomendamos reservar com antecedência.', // CONFERIR distância/tempo
   estacionamento:
     'Estacionamento gratuito: área exclusiva e segura para os convidados, com acesso fácil ao espaço e monitoramento. O conforto começa desde a chegada.',
 }
@@ -67,12 +67,12 @@ export const local = {
 export const dressCode = {
   titulo: 'Dress code',
   paragrafos: [
-    'Sugerimos o traje social — confortável e elegante — pensado para uma celebração ao ar livre, no clima encantador do pôr do sol.',
+    'Sugerimos o traje social, confortável e elegante, pensado para uma celebração ao ar livre, no clima encantador do pôr do sol.',
     'Como a cerimônia começa à tarde e segue até o entardecer, vale levar um xale ou casaco leve para quando o clima esfriar.',
     'Escolha a produção que fizer você se sentir bem, venha confortável e aproveite cada momento com a gente.',
   ],
   paletaNota:
-    'Nossa paleta foi escolhida com carinho em tons de verde oliva, terracota e branco — pedimos que esses tons (e cores muito próximas a eles) fiquem reservados para a identidade visual do nosso grande dia.',
+    'Nossa paleta foi escolhida com carinho em tons de verde oliva, terracota e branco. Pedimos que esses tons (e cores muito próximas a eles) fiquem reservados para a identidade visual do nosso grande dia.',
   // Link de um board do Pinterest com referências (opcional — deixe '' para esconder o botão)
   pinterest: 'https://br.pinterest.com/', // TROCAR
   // Fotos de referência do dress code (coloque em public/img/ e aponte aqui)
@@ -90,7 +90,7 @@ export const luaDeMel = {
   titulo: 'Capítulo II: Lua de mel',
   paragrafos: [
     'Nossa lista de presentes foi pensada de forma um pouco diferente do tradicional. Ao invés de itens para casa, optamos por transformar esse momento em algo mais especial: a nossa lua de mel.',
-    'Cada contribuição representa uma parte dessa viagem tão sonhada — seja para nos ajudar em um jantar inesquecível, um passeio especial ou simplesmente a oportunidade de vivermos juntos dias únicos.',
+    'Cada contribuição representa uma parte dessa viagem tão sonhada, seja para nos ajudar em um jantar inesquecível, um passeio especial ou simplesmente a oportunidade de vivermos juntos dias únicos.',
   ],
   chamada:
     'Você pode escolher a(s) experiência(s) que deseja nos dar como presente de casamento:',
@@ -106,7 +106,7 @@ export const luaDeMel = {
   pix: {
     chave: '11958906445', // Mercado Pago
     tipo: 'Telefone',
-    favorecido: 'Nome do Favorecido', // TROCAR — nome cadastrado na conta do Mercado Pago
+    favorecido: 'Matteo Souza',
     banco: 'Mercado Pago',
     // Opcional: imagem do QR Code do PIX em public/img/qrcode-pix.png
     qrcode: '/img/qrcode-pix.png',
@@ -167,7 +167,7 @@ export const rsvp = {
   sucesso: {
     titulo: 'Recebemos o seu sim',
     texto:
-      'Obrigado por confirmar. Vamos guardar o seu nome com carinho na nossa lista — e a gente se vê na serra.',
+      'Obrigado por confirmar. Vamos guardar o seu nome com carinho na nossa lista, e a gente se vê na serra.',
   },
 
   // WhatsApp do casal — usado para dúvidas e para avisar sobre o presente
