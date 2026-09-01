@@ -5,6 +5,17 @@ import { Reveal } from './ui'
 const CONFIGURADO = !rsvp.formId.includes('SEU_FORM_ID')
 const ACTION = `https://docs.google.com/forms/d/e/${rsvp.formId}/formResponse`
 
+function formatarWhatsapp(valor) {
+  const digitos = valor.replace(/\D/g, '').slice(0, 11)
+  if (digitos.length <= 2) return digitos
+  if (digitos.length <= 7) return `(${digitos.slice(0, 2)}) ${digitos.slice(2)}`
+  return `(${digitos.slice(0, 2)}) ${digitos.slice(2, 7)}-${digitos.slice(7)}`
+}
+
+function apenasDigitos(valor, max) {
+  return valor.replace(/\D/g, '').slice(0, max)
+}
+
 /**
  * Formulário com a cara do site que envia direto para o Google Forms.
  * O POST vai num iframe escondido — é o que permite gravar na planilha sem
@@ -13,6 +24,8 @@ const ACTION = `https://docs.google.com/forms/d/e/${rsvp.formId}/formResponse`
 function FormNativo() {
   const [estado, setEstado] = useState('parado') // parado | enviando | ok
   const [criancaVai, setCriancaVai] = useState(null) // null | 'sim' | 'nao'
+  const [whatsapp, setWhatsapp] = useState('')
+  const [idade, setIdade] = useState('')
   const enviando = useRef(false)
   const formRef = useRef(null)
 
@@ -47,6 +60,9 @@ function FormNativo() {
             name={rsvp.campos.whatsapp}
             placeholder="(11) 99999-9999"
             autoComplete="tel"
+            inputMode="numeric"
+            value={whatsapp}
+            onChange={(e) => setWhatsapp(formatarWhatsapp(e.target.value))}
             required
           />
         </label>
@@ -83,7 +99,15 @@ function FormNativo() {
             </label>
             <label className="field">
               <span>Idade da criança</span>
-              <input type="text" name={rsvp.campos.criancaIdade} placeholder="Idade" required />
+              <input
+                type="text"
+                name={rsvp.campos.criancaIdade}
+                placeholder="Idade"
+                inputMode="numeric"
+                value={idade}
+                onChange={(e) => setIdade(apenasDigitos(e.target.value, 2))}
+                required
+              />
             </label>
           </>
         )}
@@ -136,6 +160,8 @@ function FormNativo() {
             onClick={() => {
               formRef.current?.reset()
               setCriancaVai(null)
+              setWhatsapp('')
+              setIdade('')
               setEstado('parado')
             }}
             type="button"
