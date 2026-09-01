@@ -37,9 +37,8 @@ export const contagem = {
 
 export const historia = {
   titulo: 'Onde tudo começou…',
-  versiculo:
-    'Aonde fores, irei; onde repousares, ali repousarei. Teu povo será o meu povo, e o teu Deus será o meu Deus.',
-  referencia: 'Rute 1:16',
+  versiculo: '',
+  referencia: '',
   paragrafos: [
     'Tudo começou com um olhar… e uma caipirinha. Era 8 de novembro de 2020, em meio à pandemia, quando Laísa resolveu quebrar a quarentena e ir a uma festa — ela jamais imaginaria que aquela decisão mudaria sua vida para sempre.',
     'Alguns minutos depois, Matteo chegou. Nós ainda não nos conhecíamos, mas, de alguma forma, nossos olhares começaram a se encontrar. Discretamente, tentávamos disfarçar cada troca de olhares, como se ninguém estivesse percebendo — mas nossos amigos, que hoje podemos chamar de cupidos oficiais dessa história, perceberam. E decidiram dar uma ajudinha.',

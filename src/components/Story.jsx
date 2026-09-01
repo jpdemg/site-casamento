@@ -5,7 +5,7 @@ export default function Story() {
   return (
     <section id="historia" className="section-alt">
       <div className="wrap">
-        <div className="split">
+        <div className="split split-fill">
           <Reveal className="split-photo">
             <Photo
               src={fotoHistoria}
