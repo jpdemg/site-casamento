@@ -26,13 +26,17 @@ export const dataFormatada = {
 
 export const contagem = {
   titulo: 'Contamos os dias…',
-  texto:
-    'Como quem espera o vinho alcançar seu ponto mais delicado, como quem cuida do amor como se fosse terra fértil — sabendo que algumas histórias já nascem prontas, mas ganham profundidade com o tempo.',
+  paragrafos: [
+    'É uma alegria imensa ter você fazendo parte desse momento!',
+    'Neste site, você vai encontrar todos os detalhes do nosso casamento: data, local, traje, lista de presentes e tudo mais que preparamos com carinho.',
+    'Estamos ansiosos para viver esse dia inesquecível ao lado de vocês!',
+  ],
+  assinatura: 'Com amor, Laísa e Matteo',
   rodape: 'até o pôr do sol que receberá o nosso "sim".',
 }
 
 export const historia = {
-  titulo: 'Nossa história',
+  titulo: 'Onde tudo começou…',
   versiculo:
     'Aonde fores, irei; onde repousares, ali repousarei. Teu povo será o meu povo, e o teu Deus será o meu Deus.',
   referencia: 'Rute 1:16',
@@ -45,13 +49,6 @@ export const historia = {
     'Desde então, seguimos escolhendo um ao outro todos os dias. Vivemos momentos incríveis, enfrentamos desafios, realizamos sonhos e construímos, pouco a pouco, a nossa história — uma história que começou de maneira inesperada, num momento tão incerto do mundo, mas que nos trouxe a certeza de que alguns encontros simplesmente acontecem na hora certa.',
     'Hoje, olhamos para trás e percebemos que aquela noite de 8 de novembro de 2020 foi apenas o primeiro capítulo de tudo o que ainda viveríamos juntos. E agora, depois de tantos capítulos, estamos prontos para escrever o nosso próximo: o nosso para sempre.',
   ],
-}
-
-// Um pequeno vídeo em loop (live photo do casal)
-export const momento = {
-  video: '/video/momento.mp4',
-  poster: '/img/momento-poster.jpg',
-  legenda: 'Um instante nosso.',
 }
 
 export const local = {
@@ -179,8 +176,7 @@ export const rsvp = {
 }
 
 export const recado = {
-  texto:
-    'Porque hoje é a nossa vez de ouvir. Algumas palavras ficam — e, se quiser deixar as suas, vamos guardar com a mesma ternura com que guardamos esse dia.',
+  texto: '',
   // Link de um segundo Google Form só para recados (opcional — deixe '' para esconder)
   formLink: '', // TROCAR (opcional)
 }

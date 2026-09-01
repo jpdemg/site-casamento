@@ -636,45 +636,10 @@ section {
 }
 
 /* ==========================================================================
-   MOMENTO (vídeo em loop)
-   ========================================================================== */
-.moment-section {
-  padding: 40px 0 104px;
-}
-
-.moment-frame {
-  overflow: hidden;
-  border-radius: var(--r);
-  box-shadow: var(--shadow);
-}
-
-.moment-video {
-  display: block;
-  width: 100%;
-  aspect-ratio: 16 / 9;
-  object-fit: cover;
-}
-
-.moment-caption {
-  margin: 20px 0 0;
-  text-align: center;
-  font-family: var(--serif);
-  font-style: italic;
-  font-size: 0.98rem;
-  color: var(--ink-soft);
-}
-
-@media (max-width: 640px) {
-  .moment-section {
-    padding: 20px 0 72px;
-  }
-}
-
-/* ==========================================================================
    LOCAL
    ========================================================================== */
 .venue-photo .ph {
-  aspect-ratio: 16 / 10;
+  aspect-ratio: 3 / 4;
   border-radius: var(--r);
   box-shadow: var(--shadow);
 }

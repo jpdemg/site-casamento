@@ -3,7 +3,6 @@ import Nav from './components/Nav'
 import Hero from './components/Hero'
 import Countdown from './components/Countdown'
 import Story from './components/Story'
-import Moment from './components/Moment'
 import Venue from './components/Venue'
 import DressCode from './components/DressCode'
 import Honeymoon from './components/Honeymoon'
@@ -82,7 +81,6 @@ export default function App() {
       <Hero />
       <Countdown />
       <Story />
-      <Moment />
       <Venue />
       <DressCode />
       <Honeymoon

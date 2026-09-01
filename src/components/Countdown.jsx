@@ -33,7 +33,12 @@ export default function Countdown() {
       <div className="wrap narrow">
         <Reveal>
           <h2 className="eyebrow">{contagem.titulo}</h2>
-          <p className="lead">{contagem.texto}</p>
+          <div className="lead">
+            {contagem.paragrafos.map((p, i) => (
+              <p key={i}>{p}</p>
+            ))}
+            {contagem.assinatura && <p><em>{contagem.assinatura}</em></p>}
+          </div>
         </Reveal>
 
         <Reveal delay={120}>

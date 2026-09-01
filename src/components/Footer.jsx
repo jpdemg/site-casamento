@@ -12,7 +12,7 @@ export default function Footer() {
             {casal.noivo}
           </p>
           <p className="foot-date">{dataFormatada.curta}</p>
-          <p className="foot-msg">{recado.texto}</p>
+          {recado.texto && <p className="foot-msg">{recado.texto}</p>}
           {recado.formLink && (
             <a className="btn btn-ghost" href={recado.formLink} target="_blank" rel="noreferrer">
               Deixar um recado
